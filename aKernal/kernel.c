@@ -37,8 +37,8 @@ void main(void)
     vga_index = 0;
 
     clear_screen();
-    print_string("Welcome to Aki Hakune's kernal!", WHITE_COLOR);
+    print_string("Hi, I'm Aki", WHITE_COLOR);
     vga_index = 80;    /* next line */
-    print_string("See ya!", RED);
+    // print_string("See ya!", RED);
     return;
 }
